@@ -1,0 +1,60 @@
+body{
+    background-image: url("glass.jpg");
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+}
+.info-div{
+    padding-left: 150px;
+}
+.para-div h1{
+    font-size: 60px;
+    font-weight: 200;
+    color: blue;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px red;
+}
+.para-div h1:hover{
+    color: white;
+}
+.para-div p{
+    padding-top: 40px;
+    font-size: 17px;
+    color: white;
+    text-shadow: 2px 2px 4px blue;
+}
+.skill-div{
+    color: white;
+}
+.skill-div .design{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-div .title h4{
+    padding-left: 20px;
+    padding-top: -18px;
+    cursor: pointer;
+    color: yellowgreen;
+}
+.skill-div .title h4:hover{
+    font-size: 15px;
+}
+.per-div{
+    display: flex;
+    justify-content: space-between;
+}
+.download{
+    color: red;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px white;
+}
+.image-div{
+    padding-left: 40px;
+    cursor: pointer;
+}
+.download:hover{
+    font-size: 20px;
+    
+}
